@@ -1,7 +1,7 @@
 import random
 
 tablero = []
-cantidad_cartas = "Ingrese la cantidad de cartas: "
+cantidad_cartas = int(input("Ingrese la cantidad de cartas: "))
 print (cantidad_cartas)
 
 #orden del tablero depende de la cantidad de cartas
