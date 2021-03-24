@@ -60,13 +60,7 @@ num_board(div)
 #debemos mostrar las cartas que elige cada jugador
 def card_show (x, y, board, nums):
     board [y - 1][x - 1] = nums [x - 1][y - 1]
-    for i in board:
-        for j in i:
-            print (j, " ", end = "")
-        
-        print()
-    
-    return board [y - 1][x - 1]
+
 
 
 
